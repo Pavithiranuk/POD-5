@@ -1,2 +1,2 @@
 # POD-5
-Alumni Management System
+Alumini Management System
