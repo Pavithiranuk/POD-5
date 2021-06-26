@@ -1,0 +1,17 @@
+
+
+DROP TABLE IF EXISTS `userroles`;
+
+CREATE TABLE `userroles` (
+  `UID` int(11) NOT NULL,
+  `role` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`UID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+LOCK TABLES `userroles` WRITE;
+
+INSERT INTO `userroles` VALUES (1,'ROLE_CURR'),(2,'ROLE_ALUM'),(3,'ROLE_FACULTY');
+
+UNLOCK TABLES;
+
